@@ -1,0 +1,24 @@
+{
+    "env": "PongNoFrameskip-v4",
+    "algorithms":{
+        "dqn": {
+            "lambda1": 1,
+            "lambda2": 150,
+            "learning_rate": 0.0005,
+            "retain": 1e-05,
+            "retain_dim": 40,
+            "scale_factor": 1,
+            "steps": 3000,
+            "temperature": 0.1
+        },
+        "ppo": {
+            "lambda1": 1,
+            "lambda2": 1,
+            "learning_rate": 0.0005,
+            "retain": 0.001,
+            "retain_dim": 30,
+            "steps": 1000,
+            "temperature": 1
+        }
+    }
+}

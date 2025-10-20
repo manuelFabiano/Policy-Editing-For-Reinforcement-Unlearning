@@ -1,0 +1,24 @@
+{
+    "env": "EnduroNoFrameskip-v4",
+    "algorithms":{
+        "dqn": {
+            "lambda1": 1,
+            "lambda2": 12,
+            "learning_rate": 0.0005,
+            "retain": 0.001,
+            "retain_dim": 10,
+            "scale_factor": 10,
+            "steps": 10000,
+            "temperature": 0.1
+        },
+        "ppo": {
+            "lambda1": 1,
+            "lambda2": 10,
+            "learning_rate": 0.0005,
+            "retain": 0.001,
+            "retain_dim": 10,
+            "steps": 10000,
+            "temperature": 1
+        }
+    }
+}

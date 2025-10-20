@@ -1,0 +1,30 @@
+{
+    "env": "Hopper-v3",
+    "algorithms":{
+        "td3": {
+            "lambda1": 1,
+            "lambda2": 2,
+            "retain": 0.5,
+            "retain_dim": 200,
+            "retain_rand": 0.05,
+            "temperature1": 2,
+            "temperature2": 2
+        },
+        "sac": {
+            "lambda1": 1,
+            "lambda2": 20,
+            "retain": 0.5,
+            "retain_dim": 300,
+            "retain_rand": 0.05,
+            "temperature": 5
+        },
+        "ppo": {
+            "lambda1": 1,
+            "lambda2": 15,
+            "retain": 1.0,
+            "retain_dim": 200,
+            "retain_rand": 0.1,
+            "temperature": 2
+        }
+    }
+}

@@ -1,0 +1,2 @@
+traj_len,returns_mean,returns_median,returns_ci,avg_forget_target_mean_distance,avg_retain_target_mean_distance,n_returns,n_runs
+500,2962.3006371307374,3798.1883544921875,78.92517158804111,0.46441268622875215,0.09690061807632447,1000,10

@@ -1,0 +1,24 @@
+{
+    "env": "BreakoutNoFrameskip-v4",
+    "algorithms":{
+        "dqn": {
+            "lambda1": 1,
+            "lambda2": 15,
+            "learning_rate": 0.0001,
+            "retain": 0.001,
+            "retain_dim": 60,
+            "scale_factor": 10,
+            "steps": 1500,
+            "temperature": 1
+        },
+        "ppo": {
+            "lambda1": 1,
+            "lambda2": 10,
+            "learning_rate": 0.0005,
+            "retain": 0.001,
+            "retain_dim": 60,
+            "steps": 1000,
+            "temperature": 1
+        }
+    }
+}
